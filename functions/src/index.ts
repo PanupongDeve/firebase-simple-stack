@@ -4,6 +4,7 @@ import { ExpressAdapter } from '@nestjs/platform-express';
 import { AppModule } from './app.module';
 import * as express from 'express';
 
+
 const server = express();
 
 
@@ -12,7 +13,10 @@ const createNestServer = async (expressInstance: any) => {
     AppModule,
     new ExpressAdapter(expressInstance)
   );
-  
+  // app.use(helmet());
+  app.enableCors({
+    origin: '*'
+  });
   return app.init();
 }
 
