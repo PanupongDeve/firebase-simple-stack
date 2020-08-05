@@ -8,12 +8,24 @@
       {
         "source": "**/api/**",
         "function": "api"
+      },
+      {
+        "source": "**/admin/**",
+        "destination": "/public/admin/index.html"
+      },
+      {
+        "source": "***",
+        "destination": "/public"
       }
     ]
   },
   "emulators": {
     "functions": {
       "port": 5001,
+      "host": "0.0.0.0"
+    },
+    "hosting": {
+      "port": 5000,
       "host": "0.0.0.0"
     }
   }
