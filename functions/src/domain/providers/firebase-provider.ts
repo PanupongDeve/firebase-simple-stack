@@ -1,6 +1,5 @@
 import * as admin from 'firebase-admin';
-import { Logger } from '@nestjs/common';
-
+import { loggerHelper as logger } from '../helpers/logger';
 
 
 class FirebaseProvider {
@@ -17,7 +16,7 @@ class FirebaseProvider {
     }
 
     initializeApp() {
-        Logger.log("Firebase Admin Provider initialized", "FirebaseProvider", true)
+        logger.log("FirebaseProvider", "Firebase Admin Provider initialized")
     }
 
     getFireStore() {

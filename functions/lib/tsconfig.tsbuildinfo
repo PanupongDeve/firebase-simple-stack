@@ -1861,8 +1861,18 @@
         "signature": "b6ffad9cad549d8062299edd1c5b4d414cd3df117414e0adfd619b42e684f757",
         "affectsGlobalScope": false
       },
+      "../node_modules/firebase-functions/lib/logger.d.ts": {
+        "version": "3ffc6f27ce956873f171f8bc30a52448d25a9f562f2c3accb943e41bd6fa7427",
+        "signature": "3ffc6f27ce956873f171f8bc30a52448d25a9f562f2c3accb943e41bd6fa7427",
+        "affectsGlobalScope": false
+      },
+      "../src/domain/helpers/logger/index.ts": {
+        "version": "e6359f991d45fbbf89fcd3b4e51891688ea21d7298defea2ee8ee3ad0d29c414",
+        "signature": "060c93975877ab23f3a0a21ab2f679a7a22eaaf854f4af0244a64c8cfb1f013b",
+        "affectsGlobalScope": false
+      },
       "../src/domain/providers/firebase-provider.ts": {
-        "version": "0d210259f291c1a59fd87b6cee4c525717db98584005870db364929033015196",
+        "version": "3e75747792065fffdc9849761c19c2c22dcd08d63f8e23c5a904c362cca5d364",
         "signature": "c177c674a4e8bec211e965a0791f5a58d08a3cca598c287026a96696b4315d97",
         "affectsGlobalScope": false
       },
@@ -1994,11 +2004,6 @@
       "../node_modules/firebase-functions/lib/providers/testLab.d.ts": {
         "version": "471805944a5f2b948be9b514ab4f1206bfdf285cf07ea9749820146750ffbfe1",
         "signature": "471805944a5f2b948be9b514ab4f1206bfdf285cf07ea9749820146750ffbfe1",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/firebase-functions/lib/logger.d.ts": {
-        "version": "3ffc6f27ce956873f171f8bc30a52448d25a9f562f2c3accb943e41bd6fa7427",
-        "signature": "3ffc6f27ce956873f171f8bc30a52448d25a9f562f2c3accb943e41bd6fa7427",
         "affectsGlobalScope": false
       },
       "../node_modules/firebase-functions/lib/handler-builder.d.ts": {
@@ -6854,14 +6859,23 @@
         "../src/domain/providers/firebase-provider.ts",
         "../src/domain/utils/utils.ts"
       ],
-      "../src/domain/providers/firebase-provider.ts": [
+      "../src/domain/helpers/logger/index.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/firebase-admin/lib/index.d.ts"
+        "../node_modules/firebase-functions/lib/logger.d.ts"
+      ],
+      "../src/domain/providers/firebase-provider.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/firebase-admin/lib/index.d.ts",
+        "../src/domain/helpers/logger/index.ts"
       ],
       "../src/domain/utils/utils.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -11792,6 +11806,7 @@
       "../src/app.module.ts",
       "../src/app.service.ts",
       "../src/domain/datasources/CloudFireStore/cats.ts",
+      "../src/domain/helpers/logger/index.ts",
       "../src/domain/providers/firebase-provider.ts",
       "../src/domain/utils/utils.ts",
       "../src/index.ts",
