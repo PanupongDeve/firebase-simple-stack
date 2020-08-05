@@ -1,0 +1,1 @@
+export GOOGLE_APPLICATION_CREDENTIALS="/home/panupongdeve/Workspace/Freelance-Workspace/firebase-cert/firebase-function-cert.json"

@@ -3,10 +3,11 @@ import { NestFactory } from '@nestjs/core';
 import { ExpressAdapter } from '@nestjs/platform-express';
 import { AppModule } from './app.module';
 import * as express from 'express';
-
+import { firebaseProvider}  from './domain/providers/firebase-provider';
 
 const server = express();
 
+firebaseProvider.initializeApp();
 
 const createNestServer = async (expressInstance: any) => {
   const app = await NestFactory.create(

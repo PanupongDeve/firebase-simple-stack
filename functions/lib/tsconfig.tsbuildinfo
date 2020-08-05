@@ -1386,21 +1386,6 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
-      "../src/modules/cats/cats.controller.ts": {
-        "version": "61edbe25d6d04d5aca79e361ba06d1d1ef847a5975482e484157cf8377056775",
-        "signature": "546cec82fddb604c2fcb8a23cc37d0888f85a811df9d138d348d356a7992356b",
-        "affectsGlobalScope": false
-      },
-      "../src/modules/cats/cats.module.ts": {
-        "version": "867989373f4fea7a2218fbbe59b1cf174432b026df3939b4c9bc1d8250722c64",
-        "signature": "001ce82f90be19e87938252e81da5e83a3f2d17b54ae3c6df65ee949fabaa6ea",
-        "affectsGlobalScope": false
-      },
-      "../src/app.module.ts": {
-        "version": "b8d2ca946382a158e615cc4d63d29b4e34a788ef065722b0286963afa16431da",
-        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "86dd4bc57259052b7a32fb8ca1767d43f146c199b0ca145e0b7dcad4b8628310",
         "signature": "86dd4bc57259052b7a32fb8ca1767d43f146c199b0ca145e0b7dcad4b8628310",
@@ -1651,61 +1636,6 @@
         "signature": "d522314e80ed71b57e3c2939d3c9594eaae63a4adf028559e6574f6b270b0fee",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/range-parser/index.d.ts": {
-        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
-        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/qs/index.d.ts": {
-        "version": "adec64722d7da7581f6137c69426fc6e3859609e3c2ceeffb311f0be9a5ba4ae",
-        "signature": "adec64722d7da7581f6137c69426fc6e3859609e3c2ceeffb311f0be9a5ba4ae",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/express-serve-static-core/index.d.ts": {
-        "version": "343113a79319b75b3b735323d4c8667faed0a1fbe4ba696ecbd89eb3518ab244",
-        "signature": "343113a79319b75b3b735323d4c8667faed0a1fbe4ba696ecbd89eb3518ab244",
-        "affectsGlobalScope": true
-      },
-      "../node_modules/@types/mime/index.d.ts": {
-        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
-        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/serve-static/index.d.ts": {
-        "version": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
-        "signature": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/connect/index.d.ts": {
-        "version": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
-        "signature": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/body-parser/index.d.ts": {
-        "version": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
-        "signature": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/express/index.d.ts": {
-        "version": "af43f1d20a34fa56542ce2093fd9af37cb4f3076a648b63fd46b1ffac8948c9e",
-        "signature": "af43f1d20a34fa56542ce2093fd9af37cb4f3076a648b63fd46b1ffac8948c9e",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/firebase-functions/lib/function-configuration.d.ts": {
-        "version": "4009f1a875cc53f0252f4e80e82429184ab665edc80398462de1ad0b284232b0",
-        "signature": "4009f1a875cc53f0252f4e80e82429184ab665edc80398462de1ad0b284232b0",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/firebase-functions/lib/cloud-functions.d.ts": {
-        "version": "5189602b34164f618560a0193c687dad21b11261a855450b327d15a351eb0037",
-        "signature": "5189602b34164f618560a0193c687dad21b11261a855450b327d15a351eb0037",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/firebase-functions/lib/providers/analytics.d.ts": {
-        "version": "230f2776b970caf8e470648d09f4bf01d6cf1612d6aadef4d4783343a8b5c7b7",
-        "signature": "230f2776b970caf8e470648d09f4bf01d6cf1612d6aadef4d4783343a8b5c7b7",
-        "affectsGlobalScope": false
-      },
       "../node_modules/event-target-shim/index.d.ts": {
         "version": "2859adaa4f2db3d4f0fc37ad86f056045341496b58fba0dbc16a222f9d5d55b1",
         "signature": "2859adaa4f2db3d4f0fc37ad86f056045341496b58fba0dbc16a222f9d5d55b1",
@@ -1931,6 +1861,91 @@
         "signature": "b6ffad9cad549d8062299edd1c5b4d414cd3df117414e0adfd619b42e684f757",
         "affectsGlobalScope": false
       },
+      "../src/domain/providers/firebase-provider.ts": {
+        "version": "0d210259f291c1a59fd87b6cee4c525717db98584005870db364929033015196",
+        "signature": "c177c674a4e8bec211e965a0791f5a58d08a3cca598c287026a96696b4315d97",
+        "affectsGlobalScope": false
+      },
+      "../src/domain/utils/utils.ts": {
+        "version": "b643bf96b26101ada8c47be9513279dbbe62b12374fc3d3a49a9a93a4a01be95",
+        "signature": "810892248b9f79cd4414a184780d8299a58efd3c4de4659fd6f956f661fb2a17",
+        "affectsGlobalScope": false
+      },
+      "../src/domain/datasources/CloudFireStore/cats.ts": {
+        "version": "01373938af9066cdb7eb2efeffa37e576417a2cc976815e62605b2a934b31bc1",
+        "signature": "744d115c24d032cc621fe8a19e57cf19588caa64d88a7b8c713a6055286e622d",
+        "affectsGlobalScope": false
+      },
+      "../src/modules/cats/cats.controller.ts": {
+        "version": "5bb9b164b01a8a279f29fc112c47add9f35448798154f11f8fa67f43e81c2c32",
+        "signature": "546cec82fddb604c2fcb8a23cc37d0888f85a811df9d138d348d356a7992356b",
+        "affectsGlobalScope": false
+      },
+      "../src/modules/cats/cats.module.ts": {
+        "version": "867989373f4fea7a2218fbbe59b1cf174432b026df3939b4c9bc1d8250722c64",
+        "signature": "001ce82f90be19e87938252e81da5e83a3f2d17b54ae3c6df65ee949fabaa6ea",
+        "affectsGlobalScope": false
+      },
+      "../src/app.module.ts": {
+        "version": "b8d2ca946382a158e615cc4d63d29b4e34a788ef065722b0286963afa16431da",
+        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/qs/index.d.ts": {
+        "version": "adec64722d7da7581f6137c69426fc6e3859609e3c2ceeffb311f0be9a5ba4ae",
+        "signature": "adec64722d7da7581f6137c69426fc6e3859609e3c2ceeffb311f0be9a5ba4ae",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "343113a79319b75b3b735323d4c8667faed0a1fbe4ba696ecbd89eb3518ab244",
+        "signature": "343113a79319b75b3b735323d4c8667faed0a1fbe4ba696ecbd89eb3518ab244",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/serve-static/index.d.ts": {
+        "version": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
+        "signature": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/connect/index.d.ts": {
+        "version": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
+        "signature": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/body-parser/index.d.ts": {
+        "version": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "signature": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/express/index.d.ts": {
+        "version": "af43f1d20a34fa56542ce2093fd9af37cb4f3076a648b63fd46b1ffac8948c9e",
+        "signature": "af43f1d20a34fa56542ce2093fd9af37cb4f3076a648b63fd46b1ffac8948c9e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/firebase-functions/lib/function-configuration.d.ts": {
+        "version": "4009f1a875cc53f0252f4e80e82429184ab665edc80398462de1ad0b284232b0",
+        "signature": "4009f1a875cc53f0252f4e80e82429184ab665edc80398462de1ad0b284232b0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/firebase-functions/lib/cloud-functions.d.ts": {
+        "version": "5189602b34164f618560a0193c687dad21b11261a855450b327d15a351eb0037",
+        "signature": "5189602b34164f618560a0193c687dad21b11261a855450b327d15a351eb0037",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/firebase-functions/lib/providers/analytics.d.ts": {
+        "version": "230f2776b970caf8e470648d09f4bf01d6cf1612d6aadef4d4783343a8b5c7b7",
+        "signature": "230f2776b970caf8e470648d09f4bf01d6cf1612d6aadef4d4783343a8b5c7b7",
+        "affectsGlobalScope": false
+      },
       "../node_modules/firebase-functions/lib/providers/auth.d.ts": {
         "version": "8a5cec8e62bd0dcb6e933c76743d57fd5b712663b8fd28c2c21c098e8fe027a4",
         "signature": "8a5cec8e62bd0dcb6e933c76743d57fd5b712663b8fd28c2c21c098e8fe027a4",
@@ -2087,7 +2102,7 @@
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "d1b7d4c040f8f209d1b1806d625694c86544a05c3481a92dba95b648d1c8d15e",
+        "version": "3d1e080d2f2702085764c46132a07526f788dc30a52b6dd8998e66c98d7bd983",
         "signature": "77a8cfc02dd495a191e4af12ec8fd769ebd7dd931fcd19a6923a3e5d5b905d39",
         "affectsGlobalScope": false
       },
@@ -6830,6 +6845,31 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/domain/datasources/CloudFireStore/cats.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/domain/providers/firebase-provider.ts",
+        "../src/domain/utils/utils.ts"
+      ],
+      "../src/domain/providers/firebase-provider.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/firebase-admin/lib/index.d.ts"
+      ],
+      "../src/domain/utils/utils.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/index.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../node_modules/@nestjs/platform-express/index.d.ts",
@@ -6840,7 +6880,8 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/firebase-functions/lib/index.d.ts",
-        "../src/app.module.ts"
+        "../src/app.module.ts",
+        "../src/domain/providers/firebase-provider.ts"
       ],
       "../src/modules/cats/cats.controller.spec.ts": [
         "../node_modules/@nestjs/testing/index.d.ts",
@@ -6857,7 +6898,8 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
+        "../node_modules/@types/node/util.d.ts",
+        "../src/domain/datasources/CloudFireStore/cats.ts"
       ],
       "../src/modules/cats/cats.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -11749,6 +11791,9 @@
       "../src/app.controller.ts",
       "../src/app.module.ts",
       "../src/app.service.ts",
+      "../src/domain/datasources/CloudFireStore/cats.ts",
+      "../src/domain/providers/firebase-provider.ts",
+      "../src/domain/utils/utils.ts",
       "../src/index.ts",
       "../src/modules/cats/cats.controller.spec.ts",
       "../src/modules/cats/cats.controller.ts",
