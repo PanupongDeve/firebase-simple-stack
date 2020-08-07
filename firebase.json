@@ -6,18 +6,22 @@
     "public": "public",
     "rewrites": [
       {
-        "source": "**/api/**",
+        "source": "/api/**",
         "function": "api"
       },
       {
-        "source": "**/admin/**",
-        "destination": "/public/admin/index.html"
+        "source": "/admin/**",
+        "destination": "/public/admin/index.html",
+        "dynamicLinks": true
       },
       {
-        "source": "***",
-        "destination": "/public"
+        "source": "/**",
+        "destination": "/public/index.html",
+        "dynamicLinks": true
       }
-    ]
+    ],
+    "cleanUrls": true,
+    "trailingSlash": true
   },
   "emulators": {
     "functions": {

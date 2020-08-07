@@ -7,12 +7,13 @@ export const CounterExample = () => {
     const [count, setCount] = useState()
     
     useEffect(() => {
+        
         counterUsecase.subscribeValue((value) => {
             setCount(value)
         })
 
-       
-    })
+        
+    }, [])
 
     return (
         <div className="App">
